@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add To Do List </title>
+    <!-- link to css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- laibrary for draging mobile -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+
+
+</head>
+<body>
+    <div class="to-do-container">
+        <form id="add-form" action="">
+            <input type="text" placeholder="New TODO ....." id="todo-input">
+            <button type="submit" id="todo-btn">ADD+</button>
+    </form>
+    <div class="box-container">
+        <div class="box" id="to-do">
+            <h3 class="heading" > TODO</h3>
+            <P class="task" draggable="true">palying chess</P>
+            <P class="task" draggable="true">playing football</P>
+            <P class="task" draggable="true">practice speaking</P>
+        </div>
+        <div class="box" id="doing">
+            <h3 class="heading" >Doing</h3>
+            <P class="task" draggable="true"> project js </P>
+        </div>
+        <div class="box" id="done">
+            <h3 class="heading" >Done</h3>
+            <P class="task" draggable="true"> reading english </P>
+        </div>
+
+    </div>
+</div> 
+
+ <script src="main.js"></script>
+ <!-- link to js file  -->
+</body>
+</html>

@@ -22,12 +22,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-/* @media (max-width:300px){
-    body{
-        background-attachment: scroll;
-        background-size: contain;
+ @media (max-width:300px){
+    .to-do-container{
+       margin-top: 200px;
     }
-} */
+} 
 .to-do-container
 {
 width: fit-content;
